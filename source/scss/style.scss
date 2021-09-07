@@ -10,9 +10,11 @@
     max-width: 1300px;
     margin: 0 auto;
 }
-.line {
+.line-red {
     width: 60px;
     height: 3px;
+    background-color: #f38181;
+    margin: 0 auto;
 }
 .flex-sb {
     display: flex;
@@ -29,3 +31,4 @@ a {
 // $ Миксины и шаблоны
 // ! Сборка всех файлов
 @import "main/_welcome.scss";
+@import "main/_story-about.scss";

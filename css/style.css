@@ -118,9 +118,11 @@ h6 {
   margin: 0 auto;
 }
 
-.line {
+.line-red {
   width: 60px;
   height: 3px;
+  background-color: #f38181;
+  margin: 0 auto;
 }
 
 .flex-sb {
@@ -207,6 +209,10 @@ a {
 .welcome__line {
   background-color: #fff;
   margin: 0 auto;
+  width: 60px;
+  height: 3px;
+  width: 60px;
+  height: 3px;
 }
 .welcome__button {
   width: 160px;
@@ -256,4 +262,64 @@ a {
 .progress-bar__text span {
   font-size: 18px;
   font-weight: 400;
+}
+
+.story-about {
+  margin: 60px 0;
+}
+.story-about__body {
+  color: #333333;
+  text-align: center;
+}
+.story-about__sup-title {
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.story-about__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.story-about__sub-text {
+  display: inline-block;
+  margin: 30px 0 80px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #999999;
+  max-width: 950px;
+}
+.story-about__blocks-img img {
+  margin: 40px 20px 100px 20px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+.story-about__blocks-img img:hover {
+  -webkit-box-shadow: 10px 10px 0 #95e1d3;
+          box-shadow: 10px 10px 0 #95e1d3;
+}
+
+.story-about-nums-bgc {
+  background-color: #95e1d3;
+  padding: 40px;
+}
+
+.story-about-nums__body {
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+}
+.story-about-nums__num {
+  font-size: 52px;
+  font-weight: 700;
+}
+.story-about-nums__sup-text {
+  font-size: 14px;
+  line-height: 1.2;
 }
