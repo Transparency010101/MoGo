@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.noscript {
+  text-align: center;
+  margin: 200px 150px;
+  background-color: #f00;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+}
+.noscript__title {
+  font-size: 3em;
+  margin: 20px 0;
+}
+.noscript__title-sup {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.line {
+  width: 60px;
+  height: 3px;
+}
+
+.flex-sb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-cnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mogo-img {
+  color: #fff;
+  background-image: url("../image/welcome/welcome_img.png");
+}
+
+.header {
+  padding-top: 20px;
+  margin-bottom: 170px;
+}
+.header span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__list li {
+  margin: 0 30px;
+}
+.header__list li a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  -webkit-transition-duration: 380ms;
+          transition-duration: 380ms;
+}
+.header__list li a:hover {
+  color: #fce38a;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #fce38a;
+}
+
+.welcome {
+  font-family: "Montserrat", sans-serif;
+}
+.welcome__body {
+  text-align: center;
+}
+.welcome__sup-title {
+  font-family: "Kaushan Script";
+  font-size: 72px;
+  line-height: 1.2;
+}
+.welcome__title {
+  font-size: 150px;
+  line-height: 140px;
+  font-weight: 700;
+  text-transform: uppercase;
+  max-width: 800px;
+  margin: 40px 0 70px 0;
+}
+.welcome__line {
+  background-color: #fff;
+  margin: 0 auto;
+}
+.welcome__button {
+  width: 160px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #ffffff;
+  margin: 70px 0 120px 0;
+}
+.welcome__button span {
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+.welcome__button:hover {
+  opacity: 0.7;
+}
+.welcome__button:active {
+  opacity: 0.4;
+}
+
+.progress-bar__body {
+  margin: 5px;
+}
+.progress-bar__line {
+  width: 280px;
+  height: 3px;
+  background-color: #ffffff;
+  position: relative;
+}
+.progress-bar__color {
+  position: absolute;
+}
+.progress-bar__color--value1 {
+  width: 75px;
+  height: 3px;
+  background-color: #f38181;
+}
+.progress-bar__text {
+  margin-top: 15px;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.progress-bar__text span {
+  font-size: 18px;
+  font-weight: 400;
+}
