@@ -10,6 +10,45 @@
     max-width: 1300px;
     margin: 0 auto;
 }
+// ! Стили для заголовков
+%body {
+    color: #333333;
+    text-align: center;
+}
+%sup-title {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    line-height: 1.2;
+}
+%title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+%sub-text {
+    display: inline-block;
+    margin: 30px 0 80px 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+}
+// ! ----------------------
+.mini-title {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #333333;
+}
+.transparent-small-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+}
 .line-red {
     width: 60px;
     height: 3px;
@@ -29,6 +68,8 @@ a {
     text-decoration: none;
 }
 // $ Миксины и шаблоны
+
 // ! Сборка всех файлов
 @import "main/_welcome.scss";
 @import "main/_story-about.scss";
+@import "main/_service.scss";
