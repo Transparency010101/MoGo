@@ -6,8 +6,8 @@
 .header {
     padding-top: 20px;
     margin-bottom: 170px;
+    font-family: "Montserrat", sans-serif;
     span {
-        font-family: "Montserrat", sans-serif;
         font-size: 30px;
         line-height: 1.2;
         font-weight: 700;
@@ -18,7 +18,6 @@
             margin: 0 30px;
             & a {
                 color: #fff;
-                font-size: 14px;
                 line-height: 1.2;
                 text-transform: uppercase;
                 transition-duration: 380ms;
@@ -84,6 +83,7 @@
 }
 
 .progress-bar {
+    font-family: "Montserrat", sans-serif;
     &__body {
         margin: 5px;
     }
