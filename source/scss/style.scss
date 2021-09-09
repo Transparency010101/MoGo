@@ -14,6 +14,7 @@
 %body {
     color: #333333;
     text-align: center;
+    margin: 0 auto;
 }
 %sup-title {
     font-family: "Kaushan Script", cursive;
@@ -74,3 +75,4 @@ a {
 @import "main/_story-about.scss";
 @import "main/_service.scss";
 @import "main/_design.scss";
+@import "main/_we-do.scss";

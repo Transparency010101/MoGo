@@ -118,18 +118,19 @@ h6 {
     margin: 0 auto;
 }
 
-.design__body, .service__body, .story-about__body {
+.we-do__body, .design__body, .service__body, .story-about__body {
     color: #333333;
     text-align: center;
+    margin: 0 auto;
 }
 
-.design__sup-title, .service__sup-title, .story-about__sup-title {
+.we-do__sup-title, .design__sup-title, .service__sup-title, .story-about__sup-title {
     font-family: "Kaushan Script", cursive;
     font-size: 24px;
     line-height: 1.2;
 }
 
-.design__title, .service__title, .story-about__title {
+.we-do__title, .design__title, .service__title, .story-about__title {
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
     line-height: 1.2;
@@ -138,7 +139,7 @@ h6 {
     margin-bottom: 30px;
 }
 
-.story-about__sub-text {
+.we-do__sub-text, .story-about__sub-text {
     display: inline-block;
     margin: 30px 0 80px 0;
     font-family: "Roboto", sans-serif;
@@ -147,14 +148,14 @@ h6 {
     color: #999999;
 }
 
-.mini-title {
+.mini-title, .we-do__head span {
     font-family: "Montserrat", sans-serif;
     line-height: 1.2;
     text-transform: uppercase;
     color: #333333;
 }
 
-.transparent-small-text {
+.transparent-small-text, .we-do__text {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     line-height: 24px;
@@ -449,4 +450,60 @@ a {
     position: relative;
     top: 100px;
     left: 300px;
+}
+
+.we-do {
+    padding-top: 60px;
+}
+.we-do__body {
+    max-width: 950px;
+}
+.we-do__row {
+    margin: 0 50px;
+}
+.we-do__row img {
+    max-height: 100%;
+}
+.we-do__tabs {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    margin: 15px 0 15px 50px;
+}
+.we-do__body {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 33.333%;
+            flex: 1 1 33.333%;
+}
+.we-do__head {
+    height: 60px;
+    border: 1px solid #e5e5e5;
+    padding: 0 10px;
+}
+.we-do__head span.flex-sb::before {
+    content: url("../image/icon/we-do/icons1.png");
+    margin-right: 20px;
+}
+.we-do__arrown-down {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.we-do__arrown-down span:nth-child(1), .we-do__arrown-down span:nth-child(2), .we-do__arrown-down span:nth-child(3), .we-do__arrown-down span:nth-child(4) {
+    display: block;
+    width: 25px;
+    height: 2.5px;
+    background-color: #ccc;
+}
+.we-do__head span {
+    margin-top: 10px;
+}
+.we-do__text {
+    display: none;
+    font-style: italic;
+    padding: 20px;
+    text-align: left;
+}
+.we-do__text:target {
+    display: block;
 }
