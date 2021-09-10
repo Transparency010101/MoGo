@@ -124,7 +124,7 @@ h6 {
     margin: 0 auto;
 }
 
-.we-do__sup-title, .design__sup-title, .service__sup-title, .story-about__sup-title {
+.quotes__title, .we-do__sup-title, .design__sup-title, .service__sup-title, .story-about__sup-title {
     font-family: "Kaushan Script", cursive;
     font-size: 24px;
     line-height: 1.2;
@@ -155,14 +155,15 @@ h6 {
     color: #333333;
 }
 
-.transparent-small-text, .we-do__text {
+.transparent-small-text, .quotes__text, .we-do__text {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     line-height: 24px;
+    font-weight: 300;
     color: #999999;
 }
 
-.line-red {
+.line-red, .quotes__title::before {
     width: 60px;
     height: 3px;
     background-color: #f38181;
@@ -176,6 +177,15 @@ h6 {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.flex-ai-cnt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -458,6 +468,9 @@ a {
 .we-do__body {
     max-width: 950px;
 }
+.we-do__about-skils {
+    margin-bottom: 70px;
+}
 .we-do__row {
     margin: 0 50px;
 }
@@ -469,11 +482,6 @@ a {
     border: 1px solid #e5e5e5;
     margin: 15px 0 15px 50px;
 }
-.we-do__body {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 33.333%;
-            flex: 1 1 33.333%;
-}
 .we-do__head {
     height: 60px;
     border: 1px solid #e5e5e5;
@@ -482,6 +490,9 @@ a {
 .we-do__head span.flex-sb::before {
     content: url("../image/icon/we-do/icons1.png");
     margin-right: 20px;
+}
+.we-do__head-title span {
+    margin-right: 400px;
 }
 .we-do__arrown-down {
     position: relative;
@@ -506,4 +517,41 @@ a {
 }
 .we-do__text:target {
     display: block;
+}
+
+.quotes {
+    padding: 150px 0;
+    background-color: #f8f8f8;
+}
+.quotes__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.quotes__border {
+    border: 3px solid #95e1d3;
+    padding: 30px;
+}
+.quotes__border img {
+    height: 60px;
+}
+.quotes__body {
+    max-width: 770px;
+    margin-left: 50px;
+}
+.quotes__text {
+    font-size: 24px;
+    font-style: italic;
+}
+.quotes__title {
+    margin: 15px 0 0 10px;
+}
+.quotes__title::before {
+    content: "";
+    display: inline-block;
+    margin: 0;
+    margin-right: 5px;
 }

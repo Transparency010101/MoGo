@@ -48,6 +48,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     line-height: 24px;
+    font-weight: 300;
     color: #999999;
 }
 .line-red {
@@ -59,6 +60,10 @@
 .flex-sb {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.flex-ai-cnt {
+    display: flex;
     align-items: center;
 }
 .flex-cnt {

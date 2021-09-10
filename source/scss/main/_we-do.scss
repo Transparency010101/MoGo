@@ -21,6 +21,7 @@
     }
 
     &__about-skils {
+        margin-bottom: 70px;
     }
 
     &__row {
@@ -38,7 +39,6 @@
     &__tabs-row {
     }
     &__body {
-        flex: 1 1 33.333%;
     }
 
     &__head {
@@ -50,7 +50,8 @@
         content: url("../image/icon/we-do/icons1.png");
         margin-right: 20px;
     }
-    &__head-title {
+    &__head-title span {
+        margin-right: 400px;
     }
     &__arrown-down {
         position: relative;
@@ -80,5 +81,44 @@
     }
     &__text:target {
         display: block;
+    }
+}
+.quotes {
+    padding: 150px 0;
+    background-color: #f8f8f8;
+    &__block {
+        display: flex;
+        justify-content: center;
+    }
+    &__block {
+    }
+    &__border {
+        border: 3px solid #95e1d3;
+        padding: 30px;
+    }
+    &__border img {
+        height: 60px;
+    }
+    &__body {
+        max-width: 770px;
+        margin-left: 50px;
+    }
+
+    &__text {
+        @extend .transparent-small-text;
+        font-size: 24px;
+        font-style: italic;
+    }
+
+    &__title {
+        @extend %sup-title;
+        margin: 15px 0 0 10px;
+    }
+    &__title::before {
+        content: "";
+        display: inline-block;
+        @extend .line-red;
+        margin: 0;
+        margin-right: 5px;
     }
 }
