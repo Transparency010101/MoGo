@@ -27,7 +27,25 @@
                 padding-bottom: 5px;
                 border-bottom: 5px solid #fce38a;
             }
+            & a:active {
+                transition-duration: 0s;
+                opacity: 0.5;
+            }
         }
+    }
+    &__icon1 {
+        content: url("../image/icon/header/headericons1.png");
+    }
+    &__icon2 {
+        content: url("../image/icon/header/headericons2.png");
+    }
+    &__icon1:hover,
+    &__icon2:hover {
+        opacity: 0.5;
+    }
+    &__icon1:active,
+    &__icon2:active {
+        opacity: 0.3;
     }
     // &__navigation {
     // }

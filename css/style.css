@@ -239,6 +239,23 @@ a {
     padding-bottom: 5px;
     border-bottom: 5px solid #fce38a;
 }
+.header__list li a:active {
+    -webkit-transition-duration: 0s;
+            transition-duration: 0s;
+    opacity: 0.5;
+}
+.header__icon1 {
+    content: url("../image/icon/header/headericons1.png");
+}
+.header__icon2 {
+    content: url("../image/icon/header/headericons2.png");
+}
+.header__icon1:hover, .header__icon2:hover {
+    opacity: 0.5;
+}
+.header__icon1:active, .header__icon2:active {
+    opacity: 0.3;
+}
 
 .welcome {
     font-family: "Montserrat", sans-serif;
