@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- $ Подлбчение стилей -->
+    <link rel="stylesheet" href="css/style.min.css" type="text/css">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
     <meta name="viewport" content="width=1300">
     <!-- $ Отключает форматирование ссылки у номера телефона на IOS -->
@@ -24,13 +26,13 @@
 <body>
     <div class="wrapper">
         <main class="page">
-            <!-- @include "main/_welcome.kit" -->
-            <!-- @include "main/_story-about.kit" -->
-            <!-- @include "main/_service.kit" -->
-            <!-- @include "main/_design.kit" -->
-            <!-- @include "main/_we-do.kit" -->
-            <!-- @include "main/_meet.kit" -->
-            <!-- @include "main/_work.kit" -->
+            @@include("_welcome.html")
+            @@include("_story-about.html")
+            @@include("_service.html")
+            @@include("_design.html")
+            @@include("_we-do.html")
+            @@include("_meet.html")
+            @@include("_work.html")
         </main>
     </div>
     <script src="js/script.js"></script>

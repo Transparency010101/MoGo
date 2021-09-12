@@ -1,0 +1,80 @@
+.meet {
+    margin: 60px 0;
+    font-family: "Montserrat", sans-serif;
+    &__body {
+        @extend %body;
+    }
+
+    &__sup-title {
+        @extend %sup-title;
+    }
+
+    &__title {
+        @extend %title;
+    }
+
+    &__line {
+    }
+
+    &__sub-text {
+        @extend %sub-text;
+    }
+
+    &__blocks-img {
+        margin: 0 20px 100px 20px;
+    }
+    &__container-img {
+        & .meet__img {
+            width: 380px;
+            height: 470px;
+            margin: 0 25px;
+            &--1 {
+                background-image: url("/../image/meet/meet1.png");
+                align-items: center;
+                font-size: 18px;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #ffffff;
+            }
+            &--2 {
+                background-image: url("/../image/meet/meet2.png");
+            }
+            &--3 {
+                background-image: url("/../image/meet/meet3.png");
+            }
+            &--1:hover,
+            &--2:hover,
+            &--3:hover {
+                box-shadow: 10px 10px 0 #95e1d3;
+                transition-duration: 0.4s;
+            }
+        }
+    }
+    &__social-network {
+        padding: 35px;
+        & i {
+            background-color: #fce38a;
+            padding: 15px;
+            &:hover {
+                background-color: #f38181;
+            }
+        }
+    }
+    &__name {
+        color: #333333;
+        text-transform: uppercase;
+        margin: 25px 0 5px 0;
+    }
+    &__sub-name {
+        @extend .transparent-small-text;
+        font-style: italic;
+    }
+}
+.icons {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    &__block {
+    }
+}
+.container {
+}

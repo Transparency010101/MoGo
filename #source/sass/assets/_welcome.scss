@@ -1,0 +1,137 @@
+.mogo-img {
+    color: #fff;
+    // $ Задний фон welcome
+    background-image: url("image/welcome/welcome_img.png");
+}
+.header {
+    padding-top: 20px;
+    margin-bottom: 170px;
+    font-family: "Montserrat", sans-serif;
+    span {
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+    &__list {
+        display: flex;
+        & li {
+            margin: 0 30px;
+            & a {
+                color: #fff;
+                line-height: 1.2;
+                text-transform: uppercase;
+                transition-duration: 380ms;
+            }
+            & a:hover {
+                color: #fce38a;
+                padding-bottom: 5px;
+                border-bottom: 5px solid #fce38a;
+            }
+            & a:active {
+                transition-duration: 0s;
+                opacity: 0.5;
+            }
+        }
+    }
+    &__icon1 {
+        content: url("../image/icon/header/headericons1.png");
+    }
+    &__icon2 {
+        content: url("../image/icon/header/headericons2.png");
+    }
+    &__icon1:hover,
+    &__icon2:hover {
+        opacity: 0.5;
+    }
+    &__icon1:active,
+    &__icon2:active {
+        opacity: 0.3;
+    }
+    // &__navigation {
+    // }
+}
+.welcome {
+    font-family: "Montserrat", sans-serif;
+    &__body {
+        text-align: center;
+    }
+    &__sup-title {
+        font-family: "Kaushan Script";
+        font-size: 72px;
+        line-height: 1.2;
+    }
+
+    &__title {
+        font-size: 150px;
+        line-height: 140px;
+        font-weight: 700;
+        text-transform: uppercase;
+        max-width: 800px;
+        margin: 40px 0 70px 0;
+    }
+
+    &__line {
+        background-color: #fff;
+        margin: 0 auto;
+        width: 60px;
+        height: 3px;
+        width: 60px;
+        height: 3px;
+    }
+
+    &__button {
+        width: 160px;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0);
+        border: 3px solid #ffffff;
+        margin: 70px 0 120px 0;
+        & span {
+            line-height: 1.2;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #fff;
+        }
+    }
+    &__button:hover {
+        opacity: 0.7;
+    }
+    &__button:active {
+        opacity: 0.4;
+    }
+}
+
+.progress-bar {
+    font-family: "Montserrat", sans-serif;
+    &__body {
+        margin: 5px;
+    }
+
+    &__line {
+        width: 280px;
+        height: 3px;
+        background-color: #ffffff;
+        position: relative;
+    }
+
+    &__color {
+        position: absolute;
+        &--value1 {
+            width: 75px;
+            height: 3px;
+            background-color: #f38181;
+        }
+    }
+
+    &__text {
+        margin-top: 15px;
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        & span {
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+}
