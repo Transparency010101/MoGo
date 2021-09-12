@@ -12,16 +12,19 @@
 }
 // ! Стили для заголовков
 %body {
+    // @extend %body;
     color: #333333;
     text-align: center;
     margin: 0 auto;
 }
 %sup-title {
+    // @extend %sup-title;
     font-family: "Kaushan Script", cursive;
     font-size: 24px;
     line-height: 1.2;
 }
 %title {
+    // @extend %title;
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
     line-height: 1.2;
@@ -30,6 +33,7 @@
     margin-bottom: 30px;
 }
 %sub-text {
+    // @extend %sub-text;
     display: inline-block;
     margin: 30px 0 80px 0;
     font-family: "Roboto", sans-serif;
@@ -82,3 +86,4 @@ a {
 @import "main/_design.scss";
 @import "main/_we-do.scss";
 @import "main/_meet.scss";
+@import "main/_work.scss";
