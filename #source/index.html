@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- $ Подлбчение стилей -->
-    <link rel="stylesheet" href="css/style.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.min.css">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
-    <meta name="viewport" content="width=1300">
+    <!-- <meta name="viewport" content="width=device-width"> -->
     <!-- $ Отключает форматирование ссылки у номера телефона на IOS -->
     <meta name="format-detection" content="telephone=no">
-    <meta name="description" content="Mogo">
-    <meta name="keywords" content="mogo, Mogo">
+    <meta name="description" content="...">
+    <meta name="keywords" content="...">
     <!-- $ Индексация -->
     <meta name="robots" content="none">
     <!-- $ Авторские права -->
@@ -24,29 +24,28 @@
 </head>
 
 <body>
+    <!-- @@include("") -->
     <div class="wrapper">
-        <main class="page">
-            @@include("_welcome.html")
-            @@include("_story-about.html")
-            @@include("_service.html")
-            @@include("_design.html")
-            @@include("_we-do.html")
-            @@include("_meet.html")
-            @@include("_work.html")
-        </main>
+        @@include("_welcome.html")
+        @@include("_story-about.html")
+        @@include("_service.html")
+        @@include("_design.html")
+        @@include("_we-do.html")
+        @@include("_meet.html")
+        @@include("_work.html")
     </div>
-    <script src="js/script.js"></script>
-    <!-- $ Подключение иконок -->
+    </div>
+    <script src="js/all.js"></script>
     <script src="https://kit.fontawesome.com/a580a0af1c.js" crossorigin="anonymous"></script>
     <noscript>
         <div class="noscript">
             <div class="noscript__title">Внимание!</div>
             <div class="noscript__title-sup">
                 В вашем браузере отключен JavaScript!
-                Или установлена старая версия!
+                Или установлена старая версия JavaScript!
             </div>
             <div class="noscript__text">
-                Без него большая часть функционала сайта работать не будет или будет работать некорректно!
+                Без него большая часть функционала сайтаработать не будет или будет работать некорректно!
             </div>
         </div>
     </noscript>

@@ -16,9 +16,11 @@
         "gulp-clean-css": "^4.3.0",
         "gulp-file-include": "^2.3.0",
         "gulp-group-css-media-queries": "^1.2.2",
-        "gulp-imagemin": "^8.0.0",
+        "gulp-imagemin": "^6.0.0",
         "gulp-rename": "^2.0.0",
         "gulp-sass": "^5.0.0",
+        "gulp-uglify-es": "^3.0.0",
+        "gulp-webp": "^4.0.1",
         "sass": "^1.39.2"
     }
 }

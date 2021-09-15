@@ -88,6 +88,11 @@ img {
   vertical-align: top;
 }
 
+blockquote {
+  font-style: normal;
+  font-weight: normal;
+}
+
 h1,
 h2,
 h3,
@@ -234,7 +239,7 @@ a {
 
 .mogo-img {
   color: #fff;
-  background-image: url("image/welcome/welcome_img.png");
+  background-image: url("../image/welcome/welcome_img.png");
 }
 
 .header {
@@ -519,7 +524,7 @@ a {
 }
 
 .design__mobile {
-  background-image: url("../../../image/design/design_mobile.png");
+  background-image: url("../image/design/design_mobile.png");
   background-repeat: no-repeat;
 }
 
@@ -562,7 +567,7 @@ a {
 }
 
 .we-do__head span.flex-sb::before {
-  content: url("../image/icon/we-do/icons1.png");
+  content: url("../image/we-do/picture1.png");
   margin-right: 20px;
 }
 

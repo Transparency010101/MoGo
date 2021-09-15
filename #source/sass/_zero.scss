@@ -71,7 +71,11 @@ ul li {
 img {
     vertical-align: top;
 }
-
+blockquote {
+    // $ Удераю стили для цытат
+    font-style: normal;
+    font-weight: normal;
+}
 h1,
 h2,
 h3,
