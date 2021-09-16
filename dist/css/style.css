@@ -4,7 +4,7 @@
   border: none;
   outline: none;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
@@ -206,11 +206,11 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .flex-ai-cnt {
@@ -218,8 +218,8 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .flex-cnt {
@@ -227,8 +227,8 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 a {
@@ -267,8 +267,8 @@ a {
   line-height: 1.2;
   text-transform: uppercase;
   -webkit-transition-duration: 380ms;
-       -o-transition-duration: 380ms;
-          transition-duration: 380ms;
+  -o-transition-duration: 380ms;
+  transition-duration: 380ms;
 }
 
 .header__list li a:hover {
@@ -279,8 +279,8 @@ a {
 
 .header__list li a:active {
   -webkit-transition-duration: 0s;
-       -o-transition-duration: 0s;
-          transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
   opacity: 0.5;
 }
 
@@ -418,8 +418,8 @@ a {
 .story-about__container-img .story-about__img--1 {
   background-image: url("/../image/story-about/story_about1.png");
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -438,10 +438,10 @@ a {
 .story-about__container-img .story-about__img--2:hover,
 .story-about__container-img .story-about__img--3:hover {
   -webkit-box-shadow: 10px 10px 0 #95e1d3;
-          box-shadow: 10px 10px 0 #95e1d3;
+  box-shadow: 10px 10px 0 #95e1d3;
   -webkit-transition-duration: 0.4s;
-       -o-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 .story-about-nums-bgc {
@@ -478,8 +478,8 @@ a {
   grid-gap: 20px;
   justify-items: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .speciality-grid__columns {
@@ -487,7 +487,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .speciality-grid__icon {
@@ -658,8 +658,8 @@ a {
 .meet__container-img .meet__img--1 {
   background-image: url("/../image/meet/meet1.png");
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -678,10 +678,10 @@ a {
 .meet__container-img .meet__img--2:hover,
 .meet__container-img .meet__img--3:hover {
   -webkit-box-shadow: 10px 10px 0 #95e1d3;
-          box-shadow: 10px 10px 0 #95e1d3;
+  box-shadow: 10px 10px 0 #95e1d3;
   -webkit-transition-duration: 0.4s;
-       -o-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 .meet__social-network {
@@ -724,8 +724,8 @@ a {
 
 .work-grid__col {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 0px;
-          flex: 1 1 0;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0;
 }
 
 .work-grid__img {
@@ -745,8 +745,8 @@ a {
 
 .quotes__block {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .say {
@@ -767,7 +767,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .people-say__item {
