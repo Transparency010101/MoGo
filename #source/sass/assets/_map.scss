@@ -1,0 +1,15 @@
+.map-img {
+    background-image: url("../image/map/map_bgi.jpg");
+    padding: 25px 0;
+}
+.map {
+    align-items: center;
+    &__text {
+        font-size: 24px;
+        color: #f38181;
+        margin: 5px 0 15px 0;
+    }
+    & img {
+        margin: 0 auto;
+    }
+}

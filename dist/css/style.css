@@ -906,3 +906,24 @@ a {
   content: url("../image/blog/blog_comment.png");
   margin-right: 7px;
 }
+
+.map-img {
+  background-image: url("../image/map/map_bgi.jpg");
+  padding: 25px 0;
+}
+
+.map {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.map__text {
+  font-size: 24px;
+  color: #f38181;
+  margin: 5px 0 15px 0;
+}
+
+.map img {
+  margin: 0 auto;
+}
