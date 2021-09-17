@@ -1,0 +1,114 @@
+.mogo {
+    font-family: "Montserrat", sans-serif;
+    &__row {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__form {
+        max-width: 470px;
+    }
+
+    &__title {
+        font-size: 46px;
+        color: #ccc;
+        font-weight: 700;
+        margin: 40px 0;
+    }
+
+    &__text {
+        margin-bottom: 60px;
+    }
+
+    &__followers {
+        margin: 12px 0;
+        color: #333333;
+        & span {
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 700;
+        }
+    }
+
+    &__follow-us {
+        margin: 10px 0 40px 0;
+        & span {
+            font-style: italic;
+            & i {
+                margin: 0 7px;
+            }
+        }
+    }
+
+    &__blogs {
+        margin: 50px 40px;
+    }
+
+    &__mini-title {
+        margin-top: 20px;
+        font-weight: 700;
+    }
+
+    &__item {
+        margin: 30px 0;
+        display: flex;
+    }
+
+    &__body {
+        max-width: 350px;
+        margin: 10px 0 10px 25px;
+    }
+
+    &__blogs-text {
+        text-transform: uppercase;
+    }
+
+    &__date {
+        font-size: 13px;
+        margin: 5px 0;
+        font-style: italic;
+    }
+
+    &__instagram {
+        margin: 30px 0;
+    }
+
+    &__instagram-title {
+        font-weight: 700;
+        margin: 30px 0;
+    }
+
+    &__grids {
+        display: grid;
+        grid-template-columns: 88px 88px 88px;
+        grid-template-rows: 88px 88px 88px;
+        grid-gap: 2px;
+    }
+    &__grid {
+    }
+    &__more-text {
+        margin-top: 65px;
+        font-style: italic;
+    }
+    &__line {
+        width: 480px;
+    }
+}
+.mogo-input {
+    & input {
+        width: 224px;
+        padding: 3px;
+        height: 40px;
+        border: 1px solid #e7e7e7;
+        background-color: #ffffff;
+        @extend .transparent-small-text;
+    }
+    & button {
+        width: 150px;
+        height: 40px;
+        background-color: #95e1d3;
+        @extend .mini-title;
+        color: #fff;
+        font-weight: 700;
+    }
+}

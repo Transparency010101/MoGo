@@ -178,6 +178,7 @@ h6 {
 }
 
 .mini-title,
+.mogo-input button,
 .we-do__head span {
   font-family: "Montserrat", sans-serif;
   line-height: 1.2;
@@ -186,6 +187,7 @@ h6 {
 }
 
 .transparent-small-text,
+.mogo-input input,
 .meet__sub-name,
 .quotes__text,
 .we-do__text {
@@ -926,4 +928,141 @@ a {
 
 .map img {
   margin: 0 auto;
+}
+
+.mogo {
+  font-family: "Montserrat", sans-serif;
+}
+
+.mogo__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.mogo__form {
+  max-width: 470px;
+}
+
+.mogo__title {
+  font-size: 46px;
+  color: #ccc;
+  font-weight: 700;
+  margin: 40px 0;
+}
+
+.mogo__text {
+  margin-bottom: 60px;
+}
+
+.mogo__followers {
+  margin: 12px 0;
+  color: #333333;
+}
+
+.mogo__followers span {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.mogo__follow-us {
+  margin: 10px 0 40px 0;
+}
+
+.mogo__follow-us span {
+  font-style: italic;
+}
+
+.mogo__follow-us span i {
+  margin: 0 7px;
+}
+
+.mogo__blogs {
+  margin: 50px 40px;
+}
+
+.mogo__mini-title {
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.mogo__item {
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mogo__body {
+  max-width: 350px;
+  margin: 10px 0 10px 25px;
+}
+
+.mogo__blogs-text {
+  text-transform: uppercase;
+}
+
+.mogo__date {
+  font-size: 13px;
+  margin: 5px 0;
+  font-style: italic;
+}
+
+.mogo__instagram {
+  margin: 30px 0;
+}
+
+.mogo__instagram-title {
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+.mogo__grids {
+  display: grid;
+  grid-template-columns: 88px 88px 88px;
+  grid-template-rows: 88px 88px 88px;
+  grid-gap: 2px;
+}
+
+.mogo__more-text {
+  margin-top: 65px;
+  font-style: italic;
+}
+
+.mogo__line {
+  width: 480px;
+}
+
+.mogo-input input {
+  width: 224px;
+  padding: 3px;
+  height: 40px;
+  border: 1px solid #e7e7e7;
+  background-color: #ffffff;
+}
+
+.mogo-input button {
+  width: 150px;
+  height: 40px;
+  background-color: #95e1d3;
+  color: #fff;
+  font-weight: 700;
+}
+
+.footer {
+  margin: 30px 0 20px 0;
+}
+
+.footer__text {
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+.footer__text span {
+  color: #f38181;
+  margin-left: 3px;
 }
