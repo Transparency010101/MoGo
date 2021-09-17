@@ -1,0 +1,95 @@
+.blog {
+    padding: 60px 0;
+    &__body {
+        @extend %body;
+    }
+
+    &__sup-title {
+        @extend %sup-title;
+    }
+
+    &__title {
+        @extend %title;
+    }
+
+    &__line {
+    }
+}
+.blog {
+    &__blocks {
+        margin: 50px 0;
+    }
+
+    &__row {
+        display: flex;
+        flex: 1 0 33.333%;
+    }
+
+    &__item {
+        max-width: 390px;
+        margin: 0 20px;
+    }
+
+    &__column {
+        text-align: left;
+    }
+
+    &__image1 {
+        background-image: url("../image/blog/blog1.png");
+    }
+    &__image2 {
+        background-image: url("../image/blog/blog2.png");
+    }
+    &__image3 {
+        background-image: url("../image/blog/blog3.png");
+    }
+    &__image1,
+    &__image2,
+    &__image3 {
+        width: 380px;
+        height: 240px;
+        margin: 0 auto;
+    }
+    &__date {
+        display: inline-block;
+        position: relative;
+        top: 150px;
+        left: -20px;
+        background-color: #95e1d3;
+        padding: 3px 10px;
+    }
+    &__date span:first-child {
+        display: block;
+        font: bold 30px "Montserrat", sans-serif;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__date span:last-child {
+        color: #fff;
+        font-style: italic;
+    }
+    &__sub-text {
+        margin-top: 10px;
+    }
+
+    &__text {
+        margin: 10px 0;
+    }
+
+    &__count {
+        display: flex;
+    }
+    &__watch,
+    &__comment {
+        margin: 10px 15px 10px 0;
+    }
+    &__watch::before {
+        content: url("../image/blog/blog_watch.png");
+        margin-right: 7px;
+    }
+
+    &__comment::before {
+        content: url("../image/blog/blog_comment.png");
+        margin-right: 7px;
+    }
+}
